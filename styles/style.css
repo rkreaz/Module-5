@@ -27,7 +27,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -82,13 +82,33 @@ main{
    background: #FFF8F3;
    border-radius: 10px;
    padding: 150px 178px;
+   text-align: center;
 }
 .section-title{
- text-align: center;
  margin-bottom: 30px;
+ font-weight: 700;
+font-size: 35px;
 }
 .section-discription{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+   
+}
+.info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.info-discription{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
 }
